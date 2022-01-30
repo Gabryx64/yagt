@@ -27,6 +27,7 @@
 			"Desaturated",
 			"Darker"
 		],
+		"icon": "images/icon.webp",
     "contributes": {
         "themes": [
             {
