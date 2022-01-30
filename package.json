@@ -2,7 +2,7 @@
     "name": "yagt",
     "displayName": "Yet Another Gruvbox Theme",
     "description": "A port of the Gruvbox theme for Vim",
-    "version": "0.0.1",
+    "version": "0.0.1-b",
     "engines": {
         "vscode": "^1.46.0"
     },

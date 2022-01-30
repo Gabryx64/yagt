@@ -1,5 +1,3 @@
-# Change Log
+# 0.0.1-b - Change Log
 
-All notable changes to the "yagt" extension will be documented in this file.
-
-- Initial release
+- Added support for interfaces, namespaces, and modules

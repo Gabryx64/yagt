@@ -161,7 +161,7 @@
 			}
 		},
 		{
-			"name": "Function, Import",
+			"name": "Function, Import, Namespace, Struct, Class, Interface",
 			"scope": [
 				"keyword.control.def",
 				"storage.type.function",
@@ -169,8 +169,12 @@
 				"storage.modifier",
 				"storage.type.struct",
 				"storage.type.class",
+				"storage.type.interface",
 				"keyword.declaration.struct",
-				"entity.name.tag.html"
+				"entity.name.tag.html",
+				"entity.name.namespace",
+				"entity.name.module",
+				"entity.name.scope-resolution",
 			],
 			"settings": {
 				"foreground": "#98971A"
@@ -250,7 +254,7 @@
 			}
 		},
 		{
-			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+			"name": "Number, Constant, Tag Attribute, Embedded",
 			"scope": [
 				"constant.numeric",
 				"constant.language",
@@ -286,10 +290,11 @@
 				"support.type",
 				"support.class",
 				"support.orther.namespace.use.php",
+				"entity.name.type",
 				"meta.use.php",
 				"support.other.namespace.php",
 				"markup.changed.git_gutter",
-				"support.type.sys-types"
+				"support.type.sys-types",
 			],
 			"settings": {
 				"foreground": "#FABD2F"
