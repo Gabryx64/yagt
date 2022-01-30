@@ -1,0 +1,39 @@
+{
+    "name": "yagt",
+    "displayName": "Yet Another Gruvbox Theme",
+    "description": "A port of the Gruvbox theme for Vim",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.46.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+		"repository": {
+			"type": "git",
+			"url": "https://github.com/Gabryx64/yagt"
+		},
+		"galleryBanner": {
+			"color": "#f92672",
+			"theme": "dark"
+		},
+		"category": "Themes",
+		"keywords": [
+			"theme",
+			"Gruvbox",
+			"Vim",
+			"Dark Theme",
+			"Dark",
+			"Desaturated",
+			"Darker"
+		],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Yet Another Gruvbox Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/yagt-color-theme.json"
+            }
+        ]
+    }
+}
